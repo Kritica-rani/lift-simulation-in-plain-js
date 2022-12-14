@@ -1,0 +1,18 @@
+.hide{
+    display: none;
+}
+.buttn{
+    background-color: aqua;
+}
+.lifts{
+    background-color: lightblue;
+    width: 300px;
+    height:300px;
+}
+.container{
+    /* display: flex; */
+}
+.generatedFloor{
+    display: flex;
+    flex-direction: column;
+}
