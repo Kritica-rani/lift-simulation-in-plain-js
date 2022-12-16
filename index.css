@@ -5,14 +5,42 @@
     background-color: aqua;
 }
 .lifts{
-    background-color: lightblue;
-    width: 300px;
-    height:300px;
-}
-.container{
-    /* display: flex; */
+    background-color: red;
+    width: 50px;
+    height:100px;
+    margin-top: 20px;
+    display: flex;
 }
 .generatedFloor{
     display: flex;
     flex-direction: column;
+    background-color: yellow;
+  
+}
+.liftsection{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.bottomfloor{
+    display: flex;
+    flex-direction: row;
+}
+.callbtn{
+    max-height: 20px;
+}
+.floors , .bottomfloor{
+    background-color: blue;
+    margin-top: 20px;
+    height: 120px;
+}
+.door1{
+    background-color: pink;
+    height: 100px;
+    width: 25px;
+}
+.door2{
+    background-color: violet;
+    height: 100px;
+    width: 25px;
 }
